@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Aware Helpline</title>
+    <link rel="stylesheet" href="helpline_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="nav-bar">
+            <img src="logo.png" alt="logo" class="logo">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="#blogs">Helpline</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="image">
+        <div class="info">
+            <p id="text-class">Welcome to</p>
+            <p id="class">AdoptAware Helpline</p>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- blogs banner section starts -->
+
+        <div class="dog-food" id="blogs">
+            <style>
+                table {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    font-size: large;
+                }
+                
+                th,
+                td {
+                    border: 1px solid black;
+                    padding: 5px;
+                    text-align: left;
+                }
+                
+                th {
+                    background-color: #ddd;
+                }
+                
+                td+td,
+                th+th,
+                td+th,
+                th+td {
+                    border-left: 1px solid black;
+                }
+            </style>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Organization</th>
+                        <th>Service</th>
+                        <th>Contact Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PETA INDIA</td>
+                        <td>Emergency Care</td>
+                        <td>Website:
+                            <a href="https://www.petaindia.com/"></a><br>98201 22602</td>
+                    </tr>
+                    <tr>
+                        <td>Digamber Jain Charity Bird Hospital</td>
+                        <td>Free service for injured Birds</td>
+                        <td>011-23288084<br>9810016162<br>9968855520</td>
+                    </tr>
+                    <tr>
+                        <td>Friendicoes: Defence Colony (DELHI)</td>
+                        <td>For Street Animals</td>
+                        <td>9873302580<br>011-24320707<br>011-24314787</td>
+                    </tr>
+                    <tr>
+                        <td>Friendicoes (GURUGRAM)</td>
+                        <td></td>
+                        <td>7027777949<br>8743019538</td>
+                    </tr>
+                    <tr>
+                        <td>GUJRAT FOREST DEPARTMENT (REDIRECTION WILDLIFE HELPLINE NUMBER)</td>
+                        <td></td>
+                        <td>+91-8320002000</td>
+                    </tr>
+                    <tr>
+                        <td>ANIMAL HELPLINE KARUNA FOUNDATION, RAJKOT, GUJRAT</td>
+                        <td></td>
+                        <td>
+                            <a href="http://www.animalhelpline.in/"></a><br>098980 19059<br>098984 99954</td>
+                    </tr>
+                    <tr>
+                        <td>BIRDS HOSPITAL, ADAJAN, SURAT</td>
+                        <td></td>
+                        <td>2612226888<br>9228111305</td>
+                    </tr>
+                    <tr>
+                        <td>PRAYAS ANIMAL HOSPITAL, UDHANA, SURAT</td>
+                        <td></td>
+                        <td>
+                            <a href="http://www.prayas-india.org/"></a><br>9825119081</td>
+                    </tr>
+                    <tr>
+                        <td>SAVE BIRD FREE TREATMENT CENTRE, KANDIVALI, MUMBAI</td>
+                        <td></td>
+                        <td>84518-99899</td>
+                    </tr>
+                    <tr>
+                        <td>IDA INDIA, DENOR, MUMBAI</td>
+                        <td>Dogs and Cats</td>
+                        <td>
+                            <a href="https://www.idaindia.org/"></a><br>Deonar: 9320056581<br>Turbhe Center: 9320056589</td>
+                    </tr>
+                    <tr>
+                        <td>SPCA Animal Hospital, Parel</td>
+                        <td></td>
+                        <td>022-24137518/ 24135434/ 23727814</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- blogs banner section ends -->
+
+        <br>
+        <section class="contact" id="contact">
+            <div id="imagepet">
+                <img src="" alt="">
+            </div>
+
+            <form action="index.html" method="post">
+                <div class="contact-box">
+                    <h2 class="contact-details">Contact Us</h2>
+                    <input type="text" id="name" placeholder="Your name" class="box">
+                    <input type="email" id="emailid" placeholder="your email" class="box">
+                    <input type="tel" id="number" placeholder="your number" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" class="box">
+                    <textarea name="" id="msgContent" placeholder="your message" cols="30" rows="5"></textarea>
+                    <button type="submit" class="btn">Submit </button>
+                </div>
+            </form>
+
+
+        </section>
+
+        <section id="helpline">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, please feel free to reach out to our helpline.</p>
+            <p>Call: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+            <p>Email: <a href="mailto:info@=adoptaware.com">info@animalwelfare.com</a></p>
+        </section>
+
+        <section id="adoption">
+            <h2>Adoption Information</h2>
+            <p>Looking to adopt a furry friend? Contact us for more details about our adoption process.</p>
+            <p>Email: <a href="mailto:adopt@adoptaware.com">adopt@animalwelfare.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Animal Aware Organization. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

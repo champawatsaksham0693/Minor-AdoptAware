@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://animal-comforts-9d146.web.app/blogs/index.html#blogs -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Comforts</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="./front_files/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./front_files/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./front_files/favicon.ico">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="https://animal-comforts-9d146.web.app/index.html" class="logo"> <i class="fas fa-paw"></i>Animal Comforts</a>
+
+    <nav class="navbar">
+        <a href="https://animal-comforts-9d146.web.app/blogs/index.html#home">home</a>
+        <a href="https://animal-comforts-9d146.web.app/blogs/index.html#blogs">Blogs</a>
+        <a href="https://animal-comforts-9d146.web.app/blogs/index.html#contact">Blog Entries</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div id="login-btn"><img src="./front_files/favicon.ico"></div>
+    </div>
+
+    <form action="https://animal-comforts-9d146.web.app/blogs/index.html" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="https://animal-comforts-9d146.web.app/blogs/index.html#">forget password</a>
+            <a href="https://animal-comforts-9d146.web.app/blogs/index.html#">sign up</a>
+        </div>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>hi</span> welcome to Animal comforts </h3>
+    </div>
+
+    <img src="./front_files/bottom_wave.png" class="wave" alt="">
+
+</section>
+
+<!-- home section ends -->
+
+<!-- blogs banner section starts -->
+
+<div class="dog-food" id="blogs">
+
+    <div class="image">
+        <img src="./front_files/img1.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3> <span>The Consequences </span>of Animal Abuse </h3>
+        <p>The Consequences of Animal Abuse Animal abuse—also known as animal cruelty—is a pervasive problem [...]</p>
+        <a href="https://strayanimalfoundationindia.org/the-consequences-of-animal-abuse/"> <img src="./front_files/blog1.png" alt=""> </a>
+    </div>
+
+</div>
+
+<br><br><br><br><br><br>
+
+<div class="cat-food">
+
+    <div class="content">
+        <h3> <span>3 Ways To Help </span>Stray Animals</h3>
+        <p>3 Ways To Help Stray Animals Stray animals are domestic animals—mainly dogs and cats—that [...]</p>
+        <a href="https://strayanimalfoundationindia.org/3-ways-to-help-stray-animals/"> <img src="./front_files/blog1.png" alt=""> </a>
+    </div>
+
+    <div class="image">
+        <img src="./front_files/blogimg2.png" alt="">
+    </div>
+
+</div>
+
+<!-- blogs banner section ends -->
+
+<br><br><br><br><br><br>
+
+<section class="contact" id="contact">
+
+
+    <form action="https://animal-comforts-9d146.web.app/blogs/index.html" id="blogent">
+        <h3>Blog Entries</h3>
+
+        <div class="alert">Your message sent</div>
+
+        <input type="text" id="name" placeholder="your name" class="box">
+        <input type="email" id="emailid" placeholder="your email" class="box">
+        <input type="tel" id="number" placeholder="your number" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" class="box">
+        <input type="text" id="title" placeholder="Title of Blog" class="box">
+        <textarea name="" id="msgContent" placeholder="Blog" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn">Submit </button>&gt;
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="./front_files/top_wave.png" alt="">
+
+    <div class="credit"> created by <span> Stray Savers</span>  </div>
+
+</section>
+
+
+
+
+<!-- custom js file link  -->
+<script src="./front_files/firebase.js.download"></script>
+<script src="./front_files/script.js.download"></script>
+<script src="./front_files/fi.js.download"></script>
+
+
+</body></html>
